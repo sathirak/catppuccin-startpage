@@ -4,7 +4,7 @@ const palette = latte;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Colombo",
     scale: "C",
   },
   clock: {
