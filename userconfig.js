@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = latte;
 
 const default_config = {
   overrideStorage: true,
@@ -17,21 +17,21 @@ const default_config = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
+      background_url: "src/img/banners/bg-1.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "github",
+              url: "https://github.com",
+              icon: "brand-github",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "robot",
               icon_color: palette.peach,
             },
           ],
@@ -41,25 +41,25 @@ const default_config = {
           links: [
             {
               name: "gmail",
-              url: "https://mail.google.com",
+              url: "https://gmail.com",
               icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "notion",
+              url: "https://www.notion.so",
+              icon: "notebook",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "youtube",
+              url: "https://youtube.com",
+              icon: "brand-youtube",
               icon_color: palette.red,
             },
             {
               name: "drive",
-              url: "https://drive.google.com/drive/home",
+              url: "http://drive.google.com/drive/my-drive",
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
@@ -69,34 +69,10 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
+              name: "linkedin",
+              url: "https://linkedin.com",
+              icon: "brand-linkedin",
               icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
             },
           ],
         },
